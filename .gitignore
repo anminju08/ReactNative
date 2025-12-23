@@ -38,6 +38,6 @@ yarn-error.*
 
 app-example
 
-# generated native folders
-/ios
-/android
+# 이 두 줄을 주석 처리하거나 삭제하세요!
+# /ios
+# /android
