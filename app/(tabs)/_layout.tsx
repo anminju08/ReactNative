@@ -34,6 +34,12 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="insta"
+        options={{
+          title:'Instargram',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color}/>
+        }}/>
+      <Tabs.Screen
         name="AddTab"
         options={{
           title: 'addTap',
